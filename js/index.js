@@ -1,5 +1,8 @@
 const baseUrl = "https://api.github.com/search/users?q="
 
+let input = document.querySelector('div.main')
+console.log(input)
+
 function getUser(name){
     let endpoint = `baseUrl + ${name}`
     let getConfig = {
